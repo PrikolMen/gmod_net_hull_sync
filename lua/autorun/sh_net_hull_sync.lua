@@ -1,10 +1,5 @@
 local addonName = 'Net Hull Sync'
 
--- gLua Refresh Protection
-pAddons = pAddons or {}
-if pAddons[ addonName ] then return end
-pAddons[ addonName ] = true
-
 if (SERVER) then
 
     util.AddNetworkString( addonName )
